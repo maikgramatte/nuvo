@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ChannelTeaser from '../../Components/Channel/ChannelTeaser';
 import ChannelDummy from '../../Components/Channel/ChannelDummy';
 
-const ChannelDummyCount = 4;
+export const ChannelDummyCount = 4;
 const ChannelClassName = 'col-12 col-md-6';
 
 function getDummyItems() {
@@ -52,7 +52,3 @@ ChannelOverview.defaultProps = {
 };
 
 export default ChannelOverview;
-
-export {
-  ChannelDummyCount,
-};

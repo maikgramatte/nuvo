@@ -30,6 +30,4 @@ ShareBar.propTypes = {
 
 export default ShareBar;
 
-export {
-  ShareIcons,
-};
+export { ShareIcons };

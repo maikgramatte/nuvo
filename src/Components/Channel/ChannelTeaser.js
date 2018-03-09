@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
-const ChannelTeaserPropType = {
+export const ChannelTeaserPropType = {
   slug: PropTypes.string.isRequired,
   cover: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
@@ -37,7 +37,3 @@ export default function ChannelTeaser(props) {
 }
 
 ChannelTeaser.propTypes = ChannelTeaserPropType;
-
-export {
-  ChannelTeaserPropType,
-};
