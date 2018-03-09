@@ -1,4 +1,4 @@
-This repository was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This repository was bootstrapped (en ejected) with [Create React App](https://github.com/facebookincubator/create-react-app)
 
 ## Main Commands
 
@@ -33,6 +33,9 @@ your-folder/
     Utils/
 ```
 
+Pages are routeable pages, which are declared in the Router Configuration. Containers when they have a chared scope should be loaded with react-loadable, so that we prevent duplicated code.
+Components used by the Pages should be placed into subfolders of the Pages. Shared or Generic Components should be placed inside of the Component folder.
+
 ## Setup
 - Checkput this branch
 - run npm install
@@ -58,7 +61,7 @@ The Stylelint configuration can be changed:
 
 **Scope of CSS**
 You can import CSS from your React Component.
-- When a Component is used
+- When a Component is used, CSS can be imported into the Component. We are using SASS to centralizing the configuration.
 
 ## IDE
 Please setup your IDE.
@@ -106,7 +109,10 @@ Jest will look for test files with any of the following popular naming conventio
 We recommend to put the test files (or `__tests__` folders) next to the code they are testing so that relative imports appear shorter. For example, if `App.test.js` and `App.js` are in the same folder, the test just needs to `import App from './App'` instead of a long relative path. Colocation also helps find tests more quickly in larger projects.
 
 ## Integration-Testing
-ntb.
+ntbc.
 
 ## Changing the Page `<title>`
-We are using [React Helmet](https://github.com/nfl/react-helmet), a third party library which can modify the header section.
+We are using [React Helmet](https://github.com/nfl/react-helmet), a third party library which can modify the header section. Helmet can also keep track of any header element, e.g. meta-tags and all special SEO relevant tags.
+
+## Environment Variables
+[Create React App-Documentation](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
