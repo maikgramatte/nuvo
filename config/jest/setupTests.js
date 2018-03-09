@@ -1,0 +1,16 @@
+import Enzyme from 'enzyme';
+import EnzymeAdapter from 'enzyme-adapter-react-16';
+
+// Setup enzyme's react adapter
+Enzyme.configure({
+  adapter: new EnzymeAdapter(),
+  transformIgnorePatterns: ['/node_modules/'],
+});
+
+window.matchMedia = window.matchMedia || function () {
+  return {
+    matches: false,
+    addListener() {},
+    removeListener() {},
+  };
+};

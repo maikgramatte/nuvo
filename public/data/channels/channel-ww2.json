@@ -1,0 +1,105 @@
+{
+	"meta": {
+		"id": 1,
+		"slug": "ww2",
+		"title": "World-War2",
+		"desc": "Bla",
+		"cover": "/assets/ww2.jpg",
+		"hero": "/assets/green_bubbles-wide.jpg",
+		"items": 865,
+		"following": false,
+		"editor": "Mona Lisa",
+		"editor_about": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+	},
+	"related_streams": [
+		{
+			"id": 11,
+			"slug": "ww2",
+			"title": "World War 2",
+			"cover": "/assets/ww2.jpg",
+			"items": 60
+		},
+		{
+			"id": 12,
+			"slug": "green",
+			"title": "Green economy",
+			"cover": "/assets/green.jpg",
+			"items": 40
+		}
+	],
+	"items": [
+		{
+	    "title": "Churchill",
+	    "key": 1,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo"
+	  },
+	  {
+	    "title": "Churchill 2",
+	    "key": 3,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo2"
+	  },
+	  {
+	    "title": "Churchill 2",
+	    "key": 4,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo3"
+	  },
+	  {
+	    "title": "Churchill 2",
+	    "key": 5,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo4"
+	  },
+	  {
+	    "title": "Churchill 2",
+	    "key": 6,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo5"
+		},
+		{
+	    "title": "Churchill 2",
+	    "key": 7,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo6"
+		},
+		{
+	    "title": "Churchill 2",
+	    "key": 8,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo7"
+		},
+		{
+	    "title": "Churchill 2",
+	    "key": 9,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo8"
+		},
+		{
+	    "title": "Churchill 2",
+	    "key": 10,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo10"
+		},
+		{
+	    "title": "Churchill 2",
+	    "key": 11,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo91"
+		},
+		{
+	    "title": "Churchill 2",
+	    "key": 12,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo92"
+		},
+		{
+	    "title": "Churchill 2",
+	    "key": 13,
+			"img": "https://picsum.photos/300/300/?random",
+			"object_id": "foo93"
+	  }
+	]
+}
+ 

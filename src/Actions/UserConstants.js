@@ -1,0 +1,10 @@
+
+// APP Manager Constants
+const APP_STATE_USER_LOGIN = 'USER_LOGIN';
+const APP_STATE_USER_LOGOUT = 'USER_LOGOUT';
+
+
+export {
+  APP_STATE_USER_LOGIN,
+  APP_STATE_USER_LOGOUT,
+};

@@ -1,0 +1,20 @@
+.transition-overlay {
+  .card {
+    position: fixed !important;
+    left: 48%;
+    top: 45%;
+    z-index: 2000;
+    background: transparent;
+    border: 0;
+
+    > div {
+      position: relative;
+      z-index: 2000;
+    }
+  }
+}
+
+.container-loading {
+  position: relative;
+  overflow: hidden;
+}

@@ -1,0 +1,10 @@
+@import "bootstrap-overwrites";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// APP-Custom-Variables
+// Please prefix with "app"
+$app-max-width: 1200px;
+
+$app-media-md: (min-width: map-get($grid-breakpoints, md));

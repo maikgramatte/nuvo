@@ -1,0 +1,28 @@
+@import '../../../Scss/variables';
+
+.btn-link.btn-link-hover {
+  padding: 2px 5px;
+  overflow: hidden;
+  position: relative;
+
+  span {
+    width: 1px;
+    position: absolute;
+    min-width: 1px;
+    overflow: hidden;
+    opacity: 0;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+    vertical-align: bottom;
+  }
+
+  &:hover {
+    span {
+      position: relative;
+      opacity: 1;
+      min-width: 80px;
+      margin-left: 10px;
+      width: auto;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "slug": "history",
+    "label": "History",
+    "items": 10,
+    "value": "history"
+  },
+  {
+    "id": 2,
+    "slug": "culture",
+    "label": "Culture",
+    "items": 13,
+    "value": "culture"
+  },
+  {
+    "id": 3,
+    "slug": "foobar",
+    "label": "Foobar",
+    "items": 30,
+    "value": "foobar"
+  }
+]

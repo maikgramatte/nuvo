@@ -1,0 +1,36 @@
+.pagination.pagination-sm {
+  text-align: center;
+  display: block;
+  font-size: 1.2rem;
+
+  li {
+    display: inline-block;
+
+    &.disabled {
+      display: none;
+      cursor: inherit;
+    }
+
+    &.active {
+      a {
+        background: $secondary;
+        color: #fff;
+      }
+    }
+  }
+
+  a {
+    display: inline-block;
+    background: #fff;
+    border: 1px #eee solid;
+    padding: 4px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2;
+
+    &:hover {
+      background: #eee;
+    }
+  }
+}

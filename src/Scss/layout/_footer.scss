@@ -1,0 +1,21 @@
+/** General Footer CSS */
+
+footer {
+  color: #fff;
+  background: #373a47;
+  line-height: 2rem;
+
+  > div {
+    padding: 1rem 0;
+    font-size: small;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+}

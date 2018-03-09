@@ -1,0 +1,57 @@
+// May need to inline this external CSS Files to avoid external
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+.slick-slider {
+  position: relative;
+
+  .slick-disabled {
+    opacity: .5;
+  }
+
+  .slick-slide:nth-child(odd) {
+    .c-item__teaser {
+      background: #fff !important;
+    }
+  }
+
+  &:hover {
+    .slick-arrow {
+      background: rgba(0, 0, 0, .8) !important;
+    }
+  }
+
+  .slick-arrow {
+    height: 40px;
+    top: calc(50% - 40px);
+    transform: none;
+    width: 40px;
+    background-color: transparent;
+    z-index: 2;
+    color: #fff;
+    transition: .2s;
+
+    &.slick-disabled {
+      display: none !important;
+    }
+
+    svg {
+      color: #fff;
+      width: 40px;
+      height: 40px;
+    }
+
+    &:before {
+      display: none;
+      color: #222;
+    }
+
+    &.slick-next {
+      right: 0;
+    }
+
+    &.slick-prev {
+      left: 0;
+    }
+  }
+}

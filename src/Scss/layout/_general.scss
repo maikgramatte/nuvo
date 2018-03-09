@@ -1,0 +1,60 @@
+
+body,
+html {
+  scroll-behavior: smooth;
+  background: #373a47 !important;
+}
+
+main {
+  background: #fff;
+  min-height: 25rem;
+}
+
+main,
+header {
+  .container-fluid {
+    max-width: $app-max-width;
+  }
+}
+
+h1 {
+  font-weight: 100;
+}
+
+.page-head {
+  padding: 2rem .5rem 0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .49);
+  margin-bottom: 2rem;
+  background: linear-gradient(to bottom, rgba(0, 51, 51, .25) 0%, rgba(125, 185, 232, 0) 100%);
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.page-title {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.channel-hero {
+  position: absolute;
+  height: 300px;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, .2);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &:after {
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(19, 10, 10, .3) 1rem, #fff 100%);
+    height: 100%;
+    width: 100%;
+    content: '';
+  }
+}
